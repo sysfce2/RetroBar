@@ -7,6 +7,8 @@
     <s:String x:Key="advanced_tab">Avancerad</s:String>
     <s:String x:Key="taskbar_appearance">Aktivitetsfältet utseende</s:String>
     <s:String x:Key="notification_area">Meddelandefältet</s:String>
+    <s:String x:Key="general_heading">Allmänt</s:String>
+    <s:String x:Key="clock_heading">Klocka</s:String>
     <s:String x:Key="autostart">Starta automatiskt vid in_loggning</s:String>
     <s:String x:Key="language_text">S_pråk:</s:String>
     <s:String x:Key="language_tip">Välj det språk som ska användas.</s:String>
@@ -47,8 +49,7 @@
         <s:String>Samma aktivitetsfält som fönster</s:String>
         <s:String>Samma aktivitetsfält som fönster och primärt aktivitetsfält</s:String>
     </x:Array>
-    <s:String x:Key="invert_system_icons">_Invertera systemikoner:</s:String>
-    <x:Array x:Key="invert_system_icons_values" Type="s:String">
+    <x:Array x:Key="invert_grayscale_colors_values" Type="s:String">
         <s:String>När det behövs efter tema</s:String>
         <s:String>Alltid</s:String>
         <s:String>Aldrig</s:String>
@@ -88,8 +89,8 @@
     </x:Array>
     <s:String x:Key="hotkey_warning_title">RetroBar-snabbtangenter</s:String>
     <s:String x:Key="hotkey_warning_text">RetroBar åsidosätter Windows aktivitetsfältets snabbtangenter. Även om RetroBar stängs återställs de inte till Windows förrän du loggar ut och loggar in igen.</s:String>
+    <s:String x:Key="allow_blur_behind">Tillåt _oskärpa bakom transparent aktivitetsfält</s:String>
     <s:String x:Key="ok_dialog">OK</s:String>
-    <s:String x:Key="allow_blur_behind">Tillåt oskärpa bakom transparent aktivitetsfält</s:String>
 
     <s:String x:Key="customize_notifications">Anpassa meddelanden</s:String>
     <s:String x:Key="customize_notifications_info">RetroBar visar ikoner för aktiva och brådskande meddelanden, men inaktiva meddelanden döljs. Du kan ange hur meddelanden som rör objekten i listan nedan ska visas.</s:String>
@@ -158,12 +159,13 @@
     <s:String x:Key="ime_input_direct">Direktinmatning</s:String>
     <s:String x:Key="ime_open_pad">IME Pad</s:String>
     <s:String x:Key="ime_open_add_word_dictionary">Lägg till ord</s:String>
-    <s:String x:Key="ime_open_dictionary_tool">Tilläggsordbok</s:String>
+    <s:String x:Key="ime_open_dictionary_tool">Verktyg för användarordlista</s:String>
     <s:String x:Key="ime_open_properties">Inställningar</s:String>
-    <s:String x:Key="ime_input_key">Kana-inmatning</s:String>
-    <s:String x:Key="ime_input_key_roma">Av</s:String>
-    <s:String x:Key="ime_input_key_kana">På</s:String>
+    <s:String x:Key="ime_input_key">Inmatningsmetod</s:String>
+    <s:String x:Key="ime_input_key_roma">Romaji-inmatning</s:String>
+    <s:String x:Key="ime_input_key_kana">Kana-inmatning</s:String>
     <s:String x:Key="ime_conversion">Konverteringsläge</s:String>
     <s:String x:Key="ime_conversion_general">Allmänt</s:String>
     <s:String x:Key="ime_conversion_none">Ingen konvertering</s:String>
+    <s:String x:Key="input_switcher_item_format">{0} — {1}</s:String>
 </ResourceDictionary>

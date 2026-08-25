@@ -109,7 +109,7 @@ namespace RetroBar
             {
                 if (_fullScreenHelper.FullScreenApps[i].hWnd == e.Window.Handle)
                 {
-                    base.OnFullScreenEnter(_fullScreenHelper.FullScreenApps[i]);
+                    OnFullScreenEnter(_fullScreenHelper.FullScreenApps[i]);
                     return;
                 }
             }
@@ -123,7 +123,7 @@ namespace RetroBar
             }
 
             _fullScreenSuppressed = true;
-            base.OnFullScreenLeave();
+            OnFullScreenLeave();
         }
 
         private void Settings_PropertyChanged(object sender, PropertyChangedEventArgs e)
@@ -328,6 +328,18 @@ namespace RetroBar
                 OnPropertyChanged(nameof(Opacity));
             }
         }
+
+        protected override void OnFullScreenEnter(FullScreenApp app)
+        {
+            base.OnFullScreenEnter(app);
+            StartButton?.UpdateFloatingStartTopmost(false);
+        }
+
+        protected override void OnFullScreenLeave()
+        {
+            base.OnFullScreenLeave();
+            StartButton?.UpdateFloatingStartTopmost(true);
+        }
         #endregion
 
         #region Taskbar events
@@ -369,6 +381,15 @@ namespace RetroBar
             {
                 UpdateAvailableMenuItem.Visibility = Visibility.Visible;
             }
+
+            if (NativeMethods.GetAsyncKeyState((int)System.Windows.Forms.Keys.ShiftKey) < 0 && Settings.Instance.ShowExitMenuItem)
+            {
+                RestartMenuItem.Visibility = Visibility.Visible;
+            }
+            else
+            {
+                RestartMenuItem.Visibility = Visibility.Collapsed;
+            }
         }
 
         private void SetTimeMenuItem_OnClick(object sender, RoutedEventArgs e)
@@ -405,14 +426,12 @@ namespace RetroBar
 
         private void ExitMenuItem_OnClick(object sender, RoutedEventArgs e)
         {
-            if (NativeMethods.GetAsyncKeyState((int)System.Windows.Forms.Keys.ShiftKey) < 0)
-            {
-                ((App)Application.Current).RestartApp();
-            }
-            else
-            {
-                ((App)Application.Current).ExitGracefully();
-            }
+            ((App)Application.Current).ExitGracefully();
+        }
+
+        private void RestartMenuItem_Click(object sender, RoutedEventArgs e)
+        {
+            ((App)Application.Current).RestartApp();
         }
         #endregion
 

@@ -2,12 +2,13 @@
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
                     xmlns:s="clr-namespace:System;assembly=mscorlib">
 
-    <!-- Authors: https://github.com/bzzrak, Radoš Milićev (https://github.com/rammba) -->
     <s:String x:Key="retrobar_properties">Postavke RetroBar-a</s:String>
     <s:String x:Key="taskbar_tab">Traka zadataka</s:String>
     <s:String x:Key="advanced_tab">Napredno</s:String>
     <s:String x:Key="taskbar_appearance">Izgled trake zadataka</s:String>
     <s:String x:Key="notification_area">Sistemska paleta</s:String>
+    <s:String x:Key="general_heading">Opšte</s:String>
+    <s:String x:Key="clock_heading">Sat</s:String>
     <s:String x:Key="autostart">Pokreni _automatski pri prijavljivanju</s:String>
     <s:String x:Key="language_text">_Jezik:</s:String>
     <s:String x:Key="language_tip">Izaberite jezik aplikacije.</s:String>
@@ -48,8 +49,7 @@
         <s:String>Traci zadataka na kojoj je prozor</s:String>
         <s:String>Traci zadataka na kojoj je prozor i na glavnoj</s:String>
     </x:Array>
-    <s:String x:Key="invert_system_icons">_Invertuj sistemske ikonice</s:String>
-    <x:Array x:Key="invert_system_icons_values" Type="s:String">
+    <x:Array x:Key="invert_grayscale_colors_values" Type="s:String">
         <s:String>Kada tema to zahteva</s:String>
         <s:String>Uvek</s:String>
         <s:String>Nikada</s:String>
@@ -67,7 +67,7 @@
         <s:String>Otvara moderni kalendar</s:String>
         <s:String>Otvara centar za obaveštenja</s:String>
     </x:Array>
-    <s:String x:Key="auto_hide_transparent">Sakrij _liniju trake zadataka kada je automatski sakrivena</s:String>
+    <s:String x:Key="auto_hide_transparent">_Sakrij liniju trake zadataka kada je automatski sakrivena</s:String>
     <s:String x:Key="version">Verzija {0}</s:String>
     <s:String x:Key="visit_on_github">Poseti RetroBar na GitHub-u</s:String>
     <s:String x:Key="taskbar_scale">Razmera trake zadataka</s:String>
@@ -89,8 +89,8 @@
     </x:Array>
     <s:String x:Key="hotkey_warning_title">RetroBar prečice</s:String>
     <s:String x:Key="hotkey_warning_text">RetroBar će pregaziti Windows prečice za traku zadataka. Čak iako je RetroBar zatvoren, prečice neće biti vraćene dok se ne prijavite ponovo na Windows.</s:String>
+    <s:String x:Key="allow_blur_behind">_Dozvoli zamućenje iza providne trake zadataka</s:String>
     <s:String x:Key="ok_dialog">OK</s:String>
-    <s:String x:Key="allow_blur_behind">Dozvoli zamućenje iza providne trake zadataka</s:String>
 
     <s:String x:Key="customize_notifications">Prilagodi obaveštenja</s:String>
     <s:String x:Key="customize_notifications_info">RetroBar prikazuje ikonice za aktivna i hitna obaveštenja, a neaktivna sakriva. Možete da promenite ovo ponašanje za stavke na spisku ispod.</s:String>
@@ -159,16 +159,12 @@
     <s:String x:Key="ime_input_direct">Direktan unos</s:String>
     <s:String x:Key="ime_open_pad">IME Pad</s:String>
     <s:String x:Key="ime_open_add_word_dictionary">Dodaj reč</s:String>
-    <s:String x:Key="ime_open_dictionary_tool">Dodatni rečnik</s:String>
+    <s:String x:Key="ime_open_dictionary_tool">Alat za korisnički rečnik</s:String>
     <s:String x:Key="ime_open_properties">Podešavanja</s:String>
-    <s:String x:Key="ime_input_key">Kana unos</s:String>
-    <s:String x:Key="ime_input_key_roma">Isključeno</s:String>
-    <s:String x:Key="ime_input_key_kana">Uključeno</s:String>
+    <s:String x:Key="ime_input_key">Metod unosa</s:String>
+    <s:String x:Key="ime_input_key_roma">Romadži unos</s:String>
+    <s:String x:Key="ime_input_key_kana">Kana unos</s:String>
     <s:String x:Key="ime_conversion">Režim konverzije</s:String>
     <s:String x:Key="ime_conversion_general">Opšte</s:String>
     <s:String x:Key="ime_conversion_none">Bez konverzije</s:String>
-
-    <!-- Items below are settings, and should always be in English -->
-    <FlowDirection x:Key="flow_direction">LeftToRight</FlowDirection>
-    <FontFamily x:Key="start_text_xp_font_family">Franklin Gothic</FontFamily>
 </ResourceDictionary>

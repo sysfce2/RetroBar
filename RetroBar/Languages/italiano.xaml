@@ -7,6 +7,8 @@
     <s:String x:Key="advanced_tab">Avanzato</s:String>
     <s:String x:Key="taskbar_appearance">Aspetto della barra delle applicazioni</s:String>
     <s:String x:Key="notification_area">Area di notifica</s:String>
+    <s:String x:Key="general_heading">Generale</s:String>
+    <s:String x:Key="clock_heading">Orologio</s:String>
     <s:String x:Key="autostart">Avvia automaticamente all'a_ccesso</s:String>
     <s:String x:Key="language_text">Lin_gua:</s:String>
     <s:String x:Key="language_tip">Seleziona la lingua da usare.</s:String>
@@ -47,8 +49,7 @@
         <s:String>Stessa barra delle applicazioni della finestra</s:String>
         <s:String>Stessa barra delle applicazioni della finestra e barra delle applicazioni principale</s:String>
     </x:Array>
-    <s:String x:Key="invert_system_icons">_Inverti icone di sistema:</s:String>
-    <x:Array x:Key="invert_system_icons_values" Type="s:String">
+    <x:Array x:Key="invert_grayscale_colors_values" Type="s:String">
         <s:String>Quando necessario per tema</s:String>
         <s:String>Sempre</s:String>
         <s:String>Mai</s:String>
@@ -88,8 +89,8 @@
     </x:Array>
     <s:String x:Key="hotkey_warning_title">Tasti di scelta rapida RetroBar</s:String>
     <s:String x:Key="hotkey_warning_text">RetroBar sovrascriverà i tasti di scelta rapida della barra delle applicazioni di Windows. Anche se RetroBar viene chiuso, essi non verranno ripristinati in Windows fino a quando non si effettua il logout e il login.</s:String>
+    <s:String x:Key="allow_blur_behind">Consenti _sfocatura dietro la barra delle applicazioni trasparente</s:String>
     <s:String x:Key="ok_dialog">OK</s:String>
-    <s:String x:Key="allow_blur_behind">Consenti sfocatura dietro la barra delle applicazioni trasparente</s:String>
 
     <s:String x:Key="customize_notifications">Personalizza notifiche</s:String>
     <s:String x:Key="customize_notifications_info">RetroBar mostra le icone per notifiche urgenti e attive, e nasconde quelle inattive. Puoi cambiare questo comportamento per gli elementi nella lista sotto.</s:String>
@@ -160,10 +161,11 @@
     <s:String x:Key="ime_open_add_word_dictionary">Aggiungi parola</s:String>
     <s:String x:Key="ime_open_dictionary_tool">Dizionario complementare</s:String>
     <s:String x:Key="ime_open_properties">Impostazioni</s:String>
-    <s:String x:Key="ime_input_key">Inserimento Kana</s:String>
-    <s:String x:Key="ime_input_key_roma">Disattivato</s:String>
-    <s:String x:Key="ime_input_key_kana">Attivato</s:String>
+    <s:String x:Key="ime_input_key">Metodo di immissione</s:String>
+    <s:String x:Key="ime_input_key_roma">Inserimento in Romaji</s:String>
+    <s:String x:Key="ime_input_key_kana">Inserimento in Kana</s:String>
     <s:String x:Key="ime_conversion">Modalità di conversione</s:String>
     <s:String x:Key="ime_conversion_general">Generale</s:String>
     <s:String x:Key="ime_conversion_none">Nessuna conversione</s:String>
+    <s:String x:Key="input_switcher_item_format">{0} — {1}</s:String>
 </ResourceDictionary>

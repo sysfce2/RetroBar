@@ -1,4 +1,4 @@
-﻿![alt text](https://raw.githubusercontent.com/dremin/retrobar/master/retrobar-preview.png "RetroBar")
+﻿![RetroBar screenshot](https://raw.githubusercontent.com/dremin/retrobar/master/retrobar-preview.png)
 
 # RetroBar
 [![Current release](https://img.shields.io/github/v/release/dremin/RetroBar)](https://github.com/dremin/RetroBar/releases/latest) ![Build status](https://github.com/dremin/RetroBar/workflows/RetroBar/badge.svg)  [![Discord](https://img.shields.io/badge/discord-white?logo=discord)](https://discord.gg/8bGuPmerxC)
@@ -10,8 +10,7 @@ RetroBar is based on the [ManagedShell](https://github.com/cairoshell/ManagedShe
 ## Requirements
 - Windows 7 SP1, Windows 8.1, Windows 10, or Windows 11
   - Fresh installs of Windows 7 may require additional Windows updates. See [#1319](https://github.com/dremin/RetroBar/issues/1319) for details.
-- Microsoft .NET Desktop Runtime - When using the RetroBar installer, this is automatically downloaded and installed if necessary. If you're using the portable version, you may download the appropriate runtime below:
-  - [.NET 6.0.36 desktop runtime](https://dotnet.microsoft.com/download/dotnet/6.0/runtime)
+- Microsoft .NET Desktop Runtime - When using the RetroBar installer, this is automatically downloaded and installed if necessary. If you're using the portable version, you will be prompted to download on first launch.
 
 ## Features
 - Replaces default Windows taskbar with classic layout
@@ -26,7 +25,8 @@ RetroBar is based on the [ManagedShell](https://github.com/cairoshell/ManagedShe
 - Resizable taskbar with support for multiple rows
 - Option to display the taskbar, notification area, and clock on multiple monitors
 - Ability to show Vista-style window thumbnails
-- Customizable XP-style collapsible notification area
+- Customizable XP-style collapsible notification area with drag reordering
+- Input language and keyboard layout switcher
 - Custom theme support
 
 ## Included themes
@@ -50,7 +50,7 @@ RetroBar is based on the [ManagedShell](https://github.com/cairoshell/ManagedShe
   - Basic
   - Classic
 
-Looking for more themes? [Check out the great community-made RetroBar themes on DeviantArt](https://www.deviantart.com/tag/retrobar)!
+Looking for more themes? [Check out the great community-made RetroBar themes on DeviantArt](https://www.deviantart.com/tag/retrobar), and the theme-repository channel on [our Discord](https://discord.gg/8bGuPmerxC)!
 
 ## Supported languages
 - Arabic (العربية)
@@ -62,6 +62,7 @@ Looking for more themes? [Check out the great community-made RetroBar themes on 
 - Chinese (Traditional) (中文(繁體))
 - Croatian (hrvatski)
 - Czech (čeština)
+- Danish (dansk)
 - Dutch (Nederlands)
 - English
 - English (United Kingdom)
@@ -79,6 +80,7 @@ Looking for more themes? [Check out the great community-made RetroBar themes on 
 - Latvian (latviešu)
 - Lithuanian (lietuvių)
 - Luxembourgish (Lëtzebuergesch)
+- Macedonian (Македонски)
 - Malay (Melayu)
 - Maltese (Malti)
 - Norsk (bokmål)
@@ -96,6 +98,7 @@ Looking for more themes? [Check out the great community-made RetroBar themes on 
 - Turkish (Türkçe)
 - Ukrainian (українська)
 - Vietnamese (Tiếng Việt)
+- Welsh (Cymraeg)
 
 ## Custom languages and themes
 RetroBar supports custom languages and themes. You may install community-made theme files that you have downloaded in RetroBar Properties > Advanced.

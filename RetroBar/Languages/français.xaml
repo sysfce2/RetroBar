@@ -7,6 +7,8 @@
     <s:String x:Key="advanced_tab">Paramètres avancés</s:String>
     <s:String x:Key="taskbar_appearance">Apparence de la barre des tâches</s:String>
     <s:String x:Key="notification_area">Zone de notifications</s:String>
+    <s:String x:Key="general_heading">Généralités</s:String>
+    <s:String x:Key="clock_heading">Horloge</s:String>
     <s:String x:Key="autostart">_Démarrer automatiquement à la connexion</s:String>
     <s:String x:Key="language_text">Lan_gue:</s:String>
     <s:String x:Key="language_tip">Sélectionnez la langue à utiliser.</s:String>
@@ -47,8 +49,7 @@
         <s:String>La même barre des tâches que la fenêtre</s:String>
         <s:String>La même barre des tâches que la fenêtre et la barre des tâches primaire</s:String>
     </x:Array>
-    <s:String x:Key="invert_system_icons">Icônes de systeme inversées en _couleur:</s:String>
-    <x:Array x:Key="invert_system_icons_values" Type="s:String">
+    <x:Array x:Key="invert_grayscale_colors_values" Type="s:String">
         <s:String>Si nécessaire par le thème</s:String>
         <s:String>Toujours</s:String>
         <s:String>Jamais</s:String>
@@ -88,8 +89,8 @@
     </x:Array>
     <s:String x:Key="hotkey_warning_title">Raccourcis clavier RetroBar</s:String>
     <s:String x:Key="hotkey_warning_text">RetroBar va remplacer les raccourcis clavier de la barre des tâches Windows. Même si RetroBar est fermé, ils ne seront pas restaurés dans Windows jusqu'à ce que vous vous déconnectiez et reconnectiez.</s:String>
+    <s:String x:Key="allow_blur_behind">Autoriser le _flou derrière la barre des tâches transparente</s:String>
     <s:String x:Key="ok_dialog">OK</s:String>
-    <s:String x:Key="allow_blur_behind">Autoriser le flou derrière la barre des tâches transparente</s:String>
 
     <s:String x:Key="customize_notifications">Personnaliser les notifications</s:String>
     <s:String x:Key="customize_notifications_info">RetroBar affiche des icônes pour les notifications actives et urgentes et cache des icônes inactives. Vous pouvez modifier le comportement des éléments de la liste ci-dessous.</s:String>
@@ -160,14 +161,11 @@
     <s:String x:Key="ime_open_add_word_dictionary">Ajouter un mot</s:String>
     <s:String x:Key="ime_open_dictionary_tool">Dictionnaire supplémentaire</s:String>
     <s:String x:Key="ime_open_properties">Paramètres</s:String>
-    <s:String x:Key="ime_input_key">Saisie Kana</s:String>
-    <s:String x:Key="ime_input_key_roma">Désactivé</s:String>
-    <s:String x:Key="ime_input_key_kana">Activé</s:String>
+    <s:String x:Key="ime_input_key">Méthode de saisie</s:String>
+    <s:String x:Key="ime_input_key_roma">Saisie Romaji</s:String>
+    <s:String x:Key="ime_input_key_kana">Saisie Kana</s:String>
     <s:String x:Key="ime_conversion">Mode de conversion</s:String>
     <s:String x:Key="ime_conversion_general">Général</s:String>
     <s:String x:Key="ime_conversion_none">Aucune conversion</s:String>
-
-    <!-- Items below are settings, and should always be in English -->
-    <FlowDirection x:Key="flow_direction">LeftToRight</FlowDirection>
-    <FontFamily x:Key="start_text_xp_font_family">Franklin Gothic</FontFamily>
+    <s:String x:Key="input_switcher_item_format">{0} — {1}</s:String>
 </ResourceDictionary>

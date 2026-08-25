@@ -7,6 +7,8 @@
     <s:String x:Key="advanced_tab">Напредно</s:String>
     <s:String x:Key="taskbar_appearance">Изглед на плочата со задачи</s:String>
     <s:String x:Key="notification_area">Област за известувања</s:String>
+    <s:String x:Key="general_heading">Општо</s:String>
+    <s:String x:Key="clock_heading">Час</s:String>
     <s:String x:Key="autostart">Автоматски почеток при _најавување</s:String>
     <s:String x:Key="language_text">Ја_зик:</s:String>
     <s:String x:Key="language_tip">Изберете го јазикот што ќе го користите.</s:String>
@@ -24,6 +26,7 @@
     <s:String x:Key="rowcount_tip">Бројот на редови на лентата со задачи кога е на врвот или на дното.</s:String>
     <s:String x:Key="taskbar_width">Ширина на плочата со задачи:</s:String>
     <s:String x:Key="allow_font_smoothing">_Дозволи измазнување на фонтови</s:String>
+    <s:String x:Key="allow_font_smoothing_menu">Дозволи измазнување на фонтови во менијата</s:String>
     <s:String x:Key="collapse_tray_icons">Скршени _икони во известувачката област</s:String>
     <s:String x:Key="customize">_Прилагоди...</s:String>
     <s:String x:Key="show_input_language">Покажете го јазикот на _внесување</s:String>
@@ -46,8 +49,7 @@
         <s:String>Иста плоча со задачи како прозорец</s:String>
         <s:String>Иста плоча со задачи како прозорец и главна плоча со задачи</s:String>
     </x:Array>
-    <s:String x:Key="invert_system_icons">_Превртете ги иконите на системот:</s:String>
-    <x:Array x:Key="invert_system_icons_values" Type="s:String">
+    <x:Array x:Key="invert_grayscale_colors_values" Type="s:String">
         <s:String>Кога е потребно од темата</s:String>
         <s:String>Секогаш</s:String>
         <s:String>Никогаш</s:String>
@@ -87,8 +89,8 @@
     </x:Array>
     <s:String x:Key="hotkey_warning_title">Топли копчиња RetroBar</s:String>
     <s:String x:Key="hotkey_warning_text">RetroBar ќе ги препише кратенките на лентата со задачи во Windows. Дури и ако RetroBar е затворен, тие нема да бидат вратени во Windows сè додека не се одјавите и повторно најавите.</s:String>
+    <s:String x:Key="allow_blur_behind">Дозволете _замаглување зад транспарентната лента со задачи</s:String>
     <s:String x:Key="ok_dialog">OK</s:String>
-    <s:String x:Key="allow_blur_behind">Дозволете замаглување зад транспарентната лента со задачи</s:String>
 
     <s:String x:Key="customize_notifications">Прилагоди известувања</s:String>
     <s:String x:Key="customize_notifications_info">RetroBar прикажува икони за активни и итни известувања, а ги крие неактивните. Можете да го промените ова однесување за елементите во списокот подолу.</s:String>
@@ -157,16 +159,13 @@
     <s:String x:Key="ime_input_direct">Директен влез</s:String>
     <s:String x:Key="ime_open_pad">Асистент IME</s:String>
     <s:String x:Key="ime_open_add_word_dictionary">Додај збор</s:String>
-    <s:String x:Key="ime_open_dictionary_tool">Додатен речник</s:String>
+    <s:String x:Key="ime_open_dictionary_tool">Алатка за кориснички речник</s:String>
     <s:String x:Key="ime_open_properties">Поставки</s:String>
-    <s:String x:Key="ime_input_key">Влез Кана</s:String>
-    <s:String x:Key="ime_input_key_roma">Исклучено</s:String>
-    <s:String x:Key="ime_input_key_kana">Вклучено</s:String>
+    <s:String x:Key="ime_input_key">Влезен метод</s:String>
+    <s:String x:Key="ime_input_key_roma">Влез на ромаџи</s:String>
+    <s:String x:Key="ime_input_key_kana">Влез на кана</s:String>
     <s:String x:Key="ime_conversion">Режим на конверзија</s:String>
     <s:String x:Key="ime_conversion_general">Општо</s:String>
     <s:String x:Key="ime_conversion_none">Без конверзија</s:String>
-
-    <!-- Items below are settings, and should always be in English -->
-    <FlowDirection x:Key="flow_direction">LeftToRight</FlowDirection>
-    <FontFamily x:Key="start_text_xp_font_family">Franklin Gothic</FontFamily>
+    <s:String x:Key="input_switcher_item_format">{0} — {1}</s:String>
 </ResourceDictionary>
