@@ -1,6 +1,7 @@
 ﻿using System;
 using System.ComponentModel;
 using System.Diagnostics;
+using System.Runtime.InteropServices;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -261,9 +262,18 @@ namespace RetroBar.Controls
 
             if (e.Delta > 0)
             {
+                // SetForegroundWindow can fail if the process doesn't have foreground rights
+                // We need to trigger a keyboard event for Windows to grant us this ability
+                // The key code of 0xE8 is unassigned, so no apps should handle it
+                var input = new NativeMethods.INPUT[]
+                {
+                    new() { type = NativeMethods.INPUT_KEYBOARD, mkhi = new() { ki = new() { wVk = 0xE8 } } },
+                    new() { type = NativeMethods.INPUT_KEYBOARD, mkhi = new() { ki = new() { wVk = 0xE8, dwFlags = NativeMethods.KEYEVENTF_KEYUP } } }
+                };
+                NativeMethods.SendInput((uint)input.Length, input, Marshal.SizeOf<NativeMethods.INPUT>());
                 Window?.BringToFront();
             }
-            else
+            else if (Window?.CanMinimize == true)
             {
                 Window?.Minimize();
             }
