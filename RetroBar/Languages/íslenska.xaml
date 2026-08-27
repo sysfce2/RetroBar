@@ -10,7 +10,7 @@
     <s:String x:Key="general_heading">Almennt</s:String>
     <s:String x:Key="clock_heading">Klukka</s:String>
     <s:String x:Key="autostart">Ræsa sjálfkrafa við _innskráningu</s:String>
-    <s:String x:Key="language_text">Mál:</s:String>
+    <s:String x:Key="language_text">Tungumál:</s:String>
     <s:String x:Key="language_tip">Veldu tungumálið sem á að nota.</s:String>
     <s:String x:Key="theme_text">_Þema:</s:String>
     <s:String x:Key="theme_tip">Settu þemu í möppuna "Themes".</s:String>
@@ -55,10 +55,10 @@
         <s:String>Alltaf</s:String>
         <s:String>Aldrei</s:String>
     </x:Array>
-    <s:String x:Key="middle_mouse_task_action">_Aðgerð við miðklikk:</s:String>
+    <s:String x:Key="middle_mouse_task_action">_Aðgerð við miðsmellur:</s:String>
     <x:Array x:Key="middle_mouse_task_action_values" Type="s:String">
         <s:String>Gerðu ekkert</s:String>
-        <s:String>Opna nýja instans</s:String>
+        <s:String>Opna nýja tilvik</s:String>
         <s:String>Loka verkefninu</s:String>
     </x:Array>
     <s:String x:Key="clock_click_action">_Smelltu á klukku til að hefja aðgerð:</s:String>
@@ -91,7 +91,7 @@
     <s:String x:Key="hotkey_warning_title">RetroBar heitlyklaaðgerð</s:String>
     <s:String x:Key="hotkey_warning_text">RetroBar mun yfirskrifa hnappasláttartakkana í verkefnislistanum í Windows. Jafnvel þótt RetroBar sé lokað verða takkarnir ekki endurheimtir í Windows fyrr en þú skráir þig út og skráir þig aftur inn.</s:String>
     <s:String x:Key="allow_blur_behind">Leyfa _óskýrleika á bak við gegnsæja verkstiku</s:String>
-    <s:String x:Key="ok_dialog">OK</s:String>
+    <s:String x:Key="ok_dialog">Í lagi</s:String>
 
     <s:String x:Key="customize_notifications">Aðlaga tilkynningar</s:String>
     <s:String x:Key="customize_notifications_info">RetroBar sýnir táknin fyrir virk og brýn tilkynningar og felur óvirk. Þú getur breytt þessu háttarlagi fyrir atriði í listanum hér að neðan.</s:String>
@@ -102,7 +102,7 @@
     <s:String x:Key="remove">Fjarlægja</s:String>
     <s:String x:Key="name_heading">Nafn</s:String>
     <s:String x:Key="behavior_heading">Hegðun</s:String>
-    <s:String x:Key="invert_heading">Vend</s:String>
+    <s:String x:Key="invert_heading">Snúa</s:String>
 
     <s:String x:Key="start_text">Byrjaðu</s:String>
     <s:String x:Key="start_text_xp">Byrjaðu</s:String>
@@ -120,9 +120,9 @@
     <s:String x:Key="vert_tile">Raða gluggum _lóðrétt</s:String>
     <s:String x:Key="toggle_desktop">_Sýna skjáborðiðp</s:String>
     <s:String x:Key="hide_desktop">_Sýna opna glugga</s:String>
-    <s:String x:Key="undo_cascade">_Hafna kaskötun</s:String>
-    <s:String x:Key="undo_tile">_Hafna flís</s:String>
-    <s:String x:Key="undo_minimize_all">_Hafna minnkun allra glugga</s:String>
+    <s:String x:Key="undo_cascade">_Afturkallaðu kaskötun</s:String>
+    <s:String x:Key="undo_tile">_Afturkallaðu flís</s:String>
+    <s:String x:Key="undo_minimize_all">_Afturkallaðu minnkun allra glugga</s:String>
     <s:String x:Key="show_taskman_2k">Verkefnastjóri...</s:String>
     <s:String x:Key="show_taskman">Verkefnastjóri</s:String>
     <s:String x:Key="tray_properties">E_iginleikar</s:String>
