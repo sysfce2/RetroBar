@@ -49,6 +49,7 @@
         <s:String>Traci zadataka na kojoj je prozor</s:String>
         <s:String>Traci zadataka na kojoj je prozor i na glavnoj</s:String>
     </x:Array>
+    <s:String x:Key="invert_grayscale_colors">_Invertuj grayscale boje:</s:String>
     <x:Array x:Key="invert_grayscale_colors_values" Type="s:String">
         <s:String>Kada tema to zahteva</s:String>
         <s:String>Uvek</s:String>
@@ -67,7 +68,7 @@
         <s:String>Otvara moderni kalendar</s:String>
         <s:String>Otvara centar za obaveštenja</s:String>
     </x:Array>
-    <s:String x:Key="auto_hide_transparent">_Sakrij liniju trake zadataka kada je automatski sakrivena</s:String>
+    <s:String x:Key="auto_hide_transparent">Sakrij _liniju trake zadataka kada je automatski sakrivena</s:String>
     <s:String x:Key="version">Verzija {0}</s:String>
     <s:String x:Key="visit_on_github">Poseti RetroBar na GitHub-u</s:String>
     <s:String x:Key="taskbar_scale">Razmera trake zadataka</s:String>
@@ -89,7 +90,7 @@
     </x:Array>
     <s:String x:Key="hotkey_warning_title">RetroBar prečice</s:String>
     <s:String x:Key="hotkey_warning_text">RetroBar će pregaziti Windows prečice za traku zadataka. Čak iako je RetroBar zatvoren, prečice neće biti vraćene dok se ne prijavite ponovo na Windows.</s:String>
-    <s:String x:Key="allow_blur_behind">_Dozvoli zamućenje iza providne trake zadataka</s:String>
+    <s:String x:Key="allow_blur_behind">Dozvoli _zamućenje iza providne trake zadataka</s:String>
     <s:String x:Key="ok_dialog">OK</s:String>
 
     <s:String x:Key="customize_notifications">Prilagodi obaveštenja</s:String>
@@ -127,6 +128,7 @@
     <s:String x:Key="tray_properties">Posta_vke</s:String>
     <s:String x:Key="update_available">_Ažuriranje dostupno...</s:String>
     <s:String x:Key="exit_retrobar">_Napusti RetroBar</s:String>
+    <s:String x:Key="restart_retrobar">Pono_vo pokreni RetroBar</s:String>
     <s:String x:Key="customize_notifications_menu">Prilagodi _obaveštenja...</s:String>
     <s:String x:Key="lock_taskbar_menu">Za_ključaj traku zadataka</s:String>
 
@@ -149,22 +151,23 @@
 
     <s:String x:Key="open_folder">Otvori &amp;fasciklu</s:String>
 
-    <s:String x:Key="ime_input_tip_enabled">Desni klik za IME opcije</s:String>
+    <s:String x:Key="ime_input_tip_enabled">Desni klik za otvaranje IME opcija.</s:String>
     <s:String x:Key="ime_input_tip_disabled">IME onemogućeno</s:String>
-    <s:String x:Key="ime_input_full_shape_hiragana">Hiragana</s:String>
-    <s:String x:Key="ime_input_full_shape_katakana">Puna Katakana</s:String>
-    <s:String x:Key="ime_input_full_shape_alphanumeric">Puno Alfanumeričko</s:String>
-    <s:String x:Key="ime_input_katakana">Polovična Katakana</s:String>
-    <s:String x:Key="ime_input_alphanumeric">Polovično Alfanumeričko</s:String>
-    <s:String x:Key="ime_input_direct">Direktan unos</s:String>
-    <s:String x:Key="ime_open_pad">IME Pad</s:String>
-    <s:String x:Key="ime_open_add_word_dictionary">Dodaj reč</s:String>
-    <s:String x:Key="ime_open_dictionary_tool">Alat za korisnički rečnik</s:String>
-    <s:String x:Key="ime_open_properties">Podešavanja</s:String>
-    <s:String x:Key="ime_input_key">Metod unosa</s:String>
-    <s:String x:Key="ime_input_key_roma">Romadži unos</s:String>
-    <s:String x:Key="ime_input_key_kana">Kana unos</s:String>
-    <s:String x:Key="ime_conversion">Režim konverzije</s:String>
-    <s:String x:Key="ime_conversion_general">Opšte</s:String>
-    <s:String x:Key="ime_conversion_none">Bez konverzije</s:String>
+    <s:String x:Key="ime_input_full_shape_hiragana">_Hiragana</s:String>
+    <s:String x:Key="ime_input_full_shape_katakana">Puna _Katakana</s:String>
+    <s:String x:Key="ime_input_full_shape_alphanumeric">Puno _Alfanumeričko</s:String>
+    <s:String x:Key="ime_input_katakana">Polovična _Katakana</s:String>
+    <s:String x:Key="ime_input_alphanumeric">Polovično _Alfanumeričko</s:String>
+    <s:String x:Key="ime_input_direct">_Direktan unos</s:String>
+    <s:String x:Key="ime_open_pad">IME _Pad</s:String>
+    <s:String x:Key="ime_open_add_word_dictionary">Dodaj _reč</s:String>
+    <s:String x:Key="ime_open_dictionary_tool">Alat za korisnički _rečnik</s:String>
+    <s:String x:Key="ime_open_properties">_Podešavanja</s:String>
+    <s:String x:Key="ime_input_key">_Metod unosa</s:String>
+    <s:String x:Key="ime_input_key_roma">_Romadži unos</s:String>
+    <s:String x:Key="ime_input_key_kana">_Kana unos</s:String>
+    <s:String x:Key="ime_conversion">Režim _konverzije</s:String>
+    <s:String x:Key="ime_conversion_general">_Opšte</s:String>
+    <s:String x:Key="ime_conversion_none">_Bez konverzije</s:String>
+    <s:String x:Key="input_switcher_item_format">{0} — {1}</s:String>
 </ResourceDictionary>
