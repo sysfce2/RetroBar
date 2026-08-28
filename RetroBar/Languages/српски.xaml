@@ -49,6 +49,7 @@
         <s:String>Траци задатака на којој је прозор</s:String>
         <s:String>Траци задатака на којој је прозор и на главној</s:String>
     </x:Array>
+    <s:String x:Key="invert_grayscale_colors">_Инвертуј grayscale боје:</s:String>
     <x:Array x:Key="invert_grayscale_colors_values" Type="s:String">
         <s:String>Када тема то захтева</s:String>
         <s:String>Увек</s:String>
@@ -127,6 +128,7 @@
     <s:String x:Key="tray_properties">Поста_вке</s:String>
     <s:String x:Key="update_available">_Ажурирање доступно...</s:String>
     <s:String x:Key="exit_retrobar">_Напусти RetroBar</s:String>
+    <s:String x:Key="restart_retrobar">Поно_во покрени RetroBar</s:String>
     <s:String x:Key="customize_notifications_menu">Прилагоди _обавештења...</s:String>
     <s:String x:Key="lock_taskbar_menu">За_кључај траку задатака</s:String>
 
@@ -149,23 +151,23 @@
 
     <s:String x:Key="open_folder">Отвори &amp;фасциклу</s:String>
 
-    <s:String x:Key="ime_input_tip_enabled">Десни клик за IME опције</s:String>
+    <s:String x:Key="ime_input_tip_enabled">Десни клик за отварање IME опција.</s:String>
     <s:String x:Key="ime_input_tip_disabled">IME онемогућено</s:String>
-    <s:String x:Key="ime_input_full_shape_hiragana">Хирагана</s:String>
-    <s:String x:Key="ime_input_full_shape_katakana">Пуна Катакана</s:String>
-    <s:String x:Key="ime_input_full_shape_alphanumeric">Пуно Алфанумеричко</s:String>
-    <s:String x:Key="ime_input_katakana">Половична Катакана</s:String>
-    <s:String x:Key="ime_input_alphanumeric">Половично Алфанумеричко</s:String>
-    <s:String x:Key="ime_input_direct">Директан унос</s:String>
-    <s:String x:Key="ime_open_pad">IME Pad</s:String>
-    <s:String x:Key="ime_open_add_word_dictionary">Додај реч</s:String>
-    <s:String x:Key="ime_open_dictionary_tool">Алат за кориснички речник</s:String>
-    <s:String x:Key="ime_open_properties">Подешавања</s:String>
-    <s:String x:Key="ime_input_key">Метод уноса</s:String>
-    <s:String x:Key="ime_input_key_roma">Ромаџи унос</s:String>
-    <s:String x:Key="ime_input_key_kana">Кана унос</s:String>
-    <s:String x:Key="ime_conversion">Режим конверзије</s:String>
-    <s:String x:Key="ime_conversion_general">Опште</s:String>
-    <s:String x:Key="ime_conversion_none">Без конверзије</s:String>
+    <s:String x:Key="ime_input_full_shape_hiragana">_Хирагана</s:String>
+    <s:String x:Key="ime_input_full_shape_katakana">Пуна _Катакана</s:String>
+    <s:String x:Key="ime_input_full_shape_alphanumeric">Пуно _Алфанумеричко</s:String>
+    <s:String x:Key="ime_input_katakana">Половична _Катакана</s:String>
+    <s:String x:Key="ime_input_alphanumeric">Половично _Алфанумеричко</s:String>
+    <s:String x:Key="ime_input_direct">_Директан унос</s:String>
+    <s:String x:Key="ime_open_pad">IME _Pad</s:String>
+    <s:String x:Key="ime_open_add_word_dictionary">Додај _реч</s:String>
+    <s:String x:Key="ime_open_dictionary_tool">Алат за кориснички _речник</s:String>
+    <s:String x:Key="ime_open_properties">_Подешавања</s:String>
+    <s:String x:Key="ime_input_key">_Метод уноса</s:String>
+    <s:String x:Key="ime_input_key_roma">_Ромаџи унос</s:String>
+    <s:String x:Key="ime_input_key_kana">_Кана унос</s:String>
+    <s:String x:Key="ime_conversion">Режим _конверзије</s:String>
+    <s:String x:Key="ime_conversion_general">_Опште</s:String>
+    <s:String x:Key="ime_conversion_none">_Без конверзије</s:String>
     <s:String x:Key="input_switcher_item_format">{0} — {1}</s:String>
 </ResourceDictionary>
