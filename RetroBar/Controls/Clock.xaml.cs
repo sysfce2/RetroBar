@@ -170,7 +170,7 @@ namespace RetroBar.Controls
             }
 
             // Override culture info if desired, inserting newlines where appropriate
-            if (Settings.Instance.OverrideClockFormat && Settings.Instance.ClockFormat != "")
+            if (Settings.Instance.OverrideClockFormat && !string.IsNullOrEmpty(Settings.Instance.ClockFormat))
             {
                 userCulture.DateTimeFormat.ShortTimePattern = Settings.Instance.ClockFormat.Replace("\\n", "\n");
             }

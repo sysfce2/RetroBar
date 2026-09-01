@@ -452,7 +452,8 @@
                                            Width="16" />
                                 </Button>
                                 <TextBox Text="{Binding Source={x:Static Settings:Settings.Instance}, Path=ClockFormat, UpdateSourceTrigger=PropertyChanged}"
-                                         IsEnabled="{Binding Source={x:Static Settings:Settings.Instance}, Path=OverrideClockFormat, UpdateSourceTrigger=PropertyChanged}" />
+                                         IsEnabled="{Binding Source={x:Static Settings:Settings.Instance}, Path=OverrideClockFormat, UpdateSourceTrigger=PropertyChanged}"
+                                         MaxWidth="170" />
                             </DockPanel>
                             <DockPanel>
                                 <CheckBox x:Name="cbOverrideAMPMDesignators"
@@ -466,7 +467,8 @@
                                                Margin="3,0"
                                                IsEnabled="{Binding Source={x:Static Settings:Settings.Instance}, Path=OverrideAMPMDesignators, UpdateSourceTrigger=PropertyChanged}" />
                                         <TextBox Text="{Binding Source={x:Static Settings:Settings.Instance}, Path=AMDesignator, UpdateSourceTrigger=PropertyChanged}"
-                                                 IsEnabled="{Binding Source={x:Static Settings:Settings.Instance}, Path=OverrideAMPMDesignators, UpdateSourceTrigger=PropertyChanged}" />
+                                                 IsEnabled="{Binding Source={x:Static Settings:Settings.Instance}, Path=OverrideAMPMDesignators, UpdateSourceTrigger=PropertyChanged}"
+                                                 MaxWidth="72" />
                                     </DockPanel>
                                     <DockPanel>
                                         <Label Content="{DynamicResource pm_designator}"
@@ -474,7 +476,8 @@
                                                Margin="3,0"
                                                IsEnabled="{Binding Source={x:Static Settings:Settings.Instance}, Path=OverrideAMPMDesignators, UpdateSourceTrigger=PropertyChanged}" />
                                         <TextBox Text="{Binding Source={x:Static Settings:Settings.Instance}, Path=PMDesignator, UpdateSourceTrigger=PropertyChanged}"
-                                                 IsEnabled="{Binding Source={x:Static Settings:Settings.Instance}, Path=OverrideAMPMDesignators, UpdateSourceTrigger=PropertyChanged}" />
+                                                 IsEnabled="{Binding Source={x:Static Settings:Settings.Instance}, Path=OverrideAMPMDesignators, UpdateSourceTrigger=PropertyChanged}"
+                                                 MaxWidth="72" />
                                     </DockPanel>
                                 </UniformGrid>
                             </DockPanel>

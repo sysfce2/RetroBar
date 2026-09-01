@@ -476,7 +476,7 @@ namespace RetroBar
 
         private void ClockFormatHelpButton_Click(object sender, RoutedEventArgs e)
         {
-            ShellHelper.ExecuteProcess("https://learn.microsoft.com/en-us/dotnet/standard/base-types/custom-date-and-time-format-strings#table");
+            ShellHelper.ExecuteProcess("https://learn.microsoft.com/dotnet/standard/base-types/custom-date-and-time-format-strings#table");
         }
     }
 }
