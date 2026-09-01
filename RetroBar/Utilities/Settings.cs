@@ -124,7 +124,7 @@ namespace RetroBar.Utilities
             }
         }
 
-        private string _clockFormat = "h:mm:ss tt | ddd MMM d, yyyy";
+        private string _clockFormat = "ddd MMM d  h:mm:ss tt";
         public string ClockFormat
         {
             get
